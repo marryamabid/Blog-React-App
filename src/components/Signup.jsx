@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {Link,useNavigate} from "react-router-dom"
-import { login } from "../store/authSlice";
+import { login as authLogin } from '../store/authSlice'
 import  authService  from "../appwrite/auth";
 import {Logo,Button,Input} from "./index"
 import { useDispatch } from "react-redux";
@@ -22,10 +22,10 @@ function Signup() {
           if (userData) {
             const userData = await authService.getCurrentUser()
             if (userData) {
+                dispatch(authLogin({ userData }));
                 console.log(`dispatch data from current user 
                     ${userData}`);
                 
-                dispatch(login(userData))
                 navigate("/")
             }
         }
