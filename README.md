@@ -21,11 +21,18 @@ A full-featured blogpost application built with **React, Redux, Appwrite**, and 
 - **TinyMCE** – Rich Text Editor
 - **Tailwind CSS** – UI Styling
 
+## Live Demo
+
+🔗 [Blog Post App](https://blogpost-app-chi.vercel.app/)
+
+
+
+
 ## Installation & Setup
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/blog-post-app.git
+   git clone https://github.com/marryamabid/Blog-React-App.git
    cd blog-post-app
    ```
 
