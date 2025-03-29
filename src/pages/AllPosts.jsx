@@ -11,7 +11,7 @@ function AllPosts() {
             setPosts(posts.documents)
         }
     }).catch(error => {
-        console.error("Error fetching posts:", error);
+        console.log("Error fetching posts at all posts:", error);
         setPosts([]); // Handle errors gracefully
     });
     return (

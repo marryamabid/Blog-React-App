@@ -18,7 +18,7 @@ function App() {
         if (userData) {
           dispatch(login({ userData }));
         } else {
-          dispatch(logout());
+          dispatch(logout({ userData }));
         }
       } catch (error) {
         console.error("Error fetching user:", error);
