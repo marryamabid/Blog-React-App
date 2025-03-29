@@ -24,7 +24,7 @@ function Header() {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <Logo width="70px" />
+            <Logo width="87spx" />
           </Link>
 
           {/* Mobile Menu Button */}
