@@ -21,8 +21,6 @@ A full-featured blogpost application built with **React, Redux, Appwrite**, and 
 - **TinyMCE** – Rich Text Editor
 - **Tailwind CSS** – UI Styling
   
-  Live Demo
-🔗 [Blog Post App](https://blogpost-app-chi.vercel.app/)
 
 
 
