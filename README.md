@@ -20,6 +20,9 @@ A full-featured blogpost application built with **React, Redux, Appwrite**, and 
 - **Appwrite** – Backend as a Service (Auth, Database, Storage)
 - **TinyMCE** – Rich Text Editor
 - **Tailwind CSS** – UI Styling
+  
+
+
 
 ## Live Demo
 
@@ -84,5 +87,6 @@ Want to contribute? Feel free to fork the repo and submit a pull request. 😊
 
 ## License
 
-MIT License © 2024 Marryam Abid
+MIT License © 2025 Marryam Abid
+
 
