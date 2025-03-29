@@ -11,7 +11,7 @@ function Footer() {
         <div>
           <Logo width="120px" />
           <p className="mt-4 text-sm text-gray-300">
-            &copy; {new Date().getFullYear()} PicPost. All Rights Reserved.
+            &copy; {new Date().getFullYear()} BlogPost. All Rights Reserved.
           </p>
         </div>
 

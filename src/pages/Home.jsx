@@ -47,7 +47,7 @@ function Home() {
             <div className="w-full py-8 mt-4 text-center">
                 <Container>
                     <h1 className="text-2xl font-bold text-gray-500">
-                        {user ? "Go to all Posts" : "Login to read blogs"}
+                        {user ? "Go to all Posts" : "Login to add blogs"}
                     </h1>
                 </Container>
             </div>
